@@ -1,0 +1,37 @@
+# Логи
+*.log
+logs/
+
+# Временные файлы
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Артефакты сборки и архивы
+build/
+dist/
+out/
+*.tar
+*.tar.gz
+*.tgz
+
+# Локальные настройки IDE и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Локальные переменные окружения и SSH-ключи
+.env
+.env.*
+!.env.example
+.ssh/
+id_rsa
+id_ed25519
+*.pem
+*.key
